@@ -18,7 +18,7 @@ article p {
     padding: 0;
 }
 article img {
-    right: 30px
+    right: 1px
 }
 section p {
     padding: 0;
@@ -37,7 +37,7 @@ html {
 }
 article {
     position: absolute;
-    background-color: gray;
+    background-color: white;
     opacity: 0.9;
 }
 .hero img {
