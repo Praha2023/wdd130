@@ -1,50 +1,20 @@
-:root {
-    --heading-background-color: #8ECAC6;
-    --heading-text-color: #219EBC;
-    --heading-font:'Bebas neue';
-    --padding:1rem;
-    --border:1px solid rgb(0 0 0/ 0.1);
+div {
+    font-style: italic;
+    color:rgba(255, 0, 217, 0.766);
+    text-align: center ;
 }
-h1 {
-    font-style: 'Noto Sans';
-    color: #023047;
-    position: absolute;
-    size: 3px
+section {
+    text-align: center;
+    color:bisque;
+    font-style: italic;
 }
-section h2 {
-    font-style: 'Noto Sans';
-    color: #ff7d03;
+footer {
+    text-align: center;
+    color:blueviolet;
 }
-article p {
-    padding: 0;
-    text-align: left;
+nav {
+    text-align: center;
 }
-article img {
-    right: 1px
-}
-section p {
-    padding: 0;
-    color: orange;
-}
-footer p {
-    padding: 0;
-}
-footer a {
+a {
     text-decoration: none;
-}
-html {
-    width: 5px
-}
-.hero div {
-    position: relative;
-}
-article {
-    position: absolute;
-    background-color: white;
-    opacity: 0.9;
-}
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
