@@ -1,20 +1,34 @@
 div {
     font-style: italic;
     color:rgba(255, 0, 217, 0.766);
-    text-align: center ;
 }
 section {
-    text-align: center;
-    color:bisque;
+    color:rgb(226, 130, 12);
     font-style: italic;
 }
 footer {
-    text-align: center;
     color:blueviolet;
-}
-nav {
-    text-align: center;
 }
 a {
     text-decoration: none;
 }
+body {
+    text-align: center;
+    padding: 2px green;
+    border: 1px solid black;
+    background: white;
+    max-width: 50%;
+}
+.hero div {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.article img {
+    float: right;
+    size: 10px;
+}
+
