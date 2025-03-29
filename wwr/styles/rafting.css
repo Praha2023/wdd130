@@ -2,15 +2,15 @@
     --heading-background-color: pink;
     --heading-text-color: yellow;
     --heading-font:'montserrat' helvetica sans-serif;
-    --padding:1rem;
-    --border:1px solid rgb(0 0 0/ 0.1);
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0/ 0.1);
 }
 section {
-    color:rgb(226, 130, 12);
+    color: rgb(226, 130, 12);
     font-style: italic;
 }
 footer {
-    color:blueviolet;
+    color: blueviolet;
 }
 a {
     text-decoration: none;
@@ -33,7 +33,7 @@ body {
 }
 h1 {
     position: absolute;
-    top:1rem;
+    top: 1rem;
     left: 0;
     right: 0;
     text-align: center;
@@ -43,7 +43,7 @@ article {
     position: absolute;
     top: 10rem;
     width: 80%;
-    background-color:rgba(210, 192, 207, 0.64);
+    background-color: rgba(210, 192, 207, 0.64);
     left: 0;
     right: 0;
     margin: 0 auto;
