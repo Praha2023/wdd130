@@ -1,0 +1,53 @@
+:root {
+    --heading-background-color: pink;
+    --heading-text-color: yellow;
+    --heading-font:'montserrat' helvetica sans-serif;
+    --padding:1rem;
+    --border:1px solid rgb(0 0 0/ 0.1);
+}
+section {
+    color:rgb(226, 130, 12);
+    font-style: italic;
+}
+footer {
+    color:blueviolet;
+}
+a {
+    text-decoration: none;
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+.hero  {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero article img {
+    float: right;
+    width: 100px;
+}
+h1 {
+    position: absolute;
+    top:1rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+article {
+    position: absolute;
+    top: 10rem;
+    width: 80%;
+    background-color:rgba(210, 192, 207, 0.64);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: black;
+    padding: 2rem;
+}
+
