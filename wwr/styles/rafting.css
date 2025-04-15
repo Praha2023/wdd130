@@ -129,3 +129,19 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
+footer nav {
+    padding: 0;
+    margin: 20px;
+}
+
+main {
+    width: 900px;
+    background-color: aliceblue;
+}
+.happy_employees {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+main figcaption {
+    color:rgb(80, 80, 223);
+}
