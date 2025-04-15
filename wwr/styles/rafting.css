@@ -5,33 +5,40 @@
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0/ 0.1);
 }
+
 section {
     color: rgb(226, 130, 12);
     font-style: italic;
-    padding:0;
+    padding: 0;
     margin: 0;
 }
+
 a {
     text-decoration: none;
 }
+
 body {
     width: 800px;
     margin: 0 auto;
     border: 3px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.hero  {
+
+.hero {
     position: relative;
 }
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
+
 .hero article img {
     float: right;
     width: 100px;
 }
+
 h1 {
     position: absolute;
     top: 1rem;
@@ -40,6 +47,7 @@ h1 {
     text-align: center;
     color: white;
 }
+
 article {
     position: absolute;
     top: 10rem;
@@ -55,49 +63,60 @@ article {
     justify-content: space-between;
     flex-direction: row-reverse;
 }
+
 header {
     background-color: rgb(217, 232, 193);
     display: grid;
     grid-template-columns: 200px auto;
 }
+
 footer {
     color: cornflowerblue;
 }
+
 header img {
     width: 200px;
 }
+
 nav {
     padding: 70px;
-    margin:0;
+    margin: 0;
     display: flex;
     justify-content: space-around;
     gap: 10px;
 }
+
 p {
     padding: 3%;
     border: 2px 2px;
 }
+
 .hero article img {
-    float:right;
+    float: right;
 }
+
 h2 {
     text-align: center;
     background-color: aqua;
 }
+
 .historyimage img {
     width: 150px;
     height: 150px;
     top: 50px;
     left: 50px;
 }
+
 .historyimage {
     background-color: aquamarine;
 }
-.historyimage img{
+
+.historyimage img {
     background-color: rgb(98, 219, 219);
     float: right;
     margin: 5px;
 }
+
 .figure_flex {
     background-color: cadetblue;
     max-width: 100%;
@@ -106,29 +125,35 @@ h2 {
     display: flex;
     align-content: stretch;
 }
+
 figure {
     margin: 3px;
     padding: 0;
 }
+
 figcaption {
     text-align: center;
 }
+
 .historyimage p {
     left: 50%;
     right: 50%;
 }
+
 footer {
     background-color: rgb(149, 223, 236);
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
-.sociallinks img{
+
+.sociallinks img {
     width: 50px;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: flex-end;
 }
+
 footer nav {
     padding: 0;
     margin: 20px;
@@ -138,10 +163,69 @@ main {
     width: 900px;
     background-color: aliceblue;
 }
+
 .happy_employees {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
 }
+
 main figcaption {
-    color:rgb(80, 80, 223);
+    color: rgb(80, 80, 223);
 }
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    color: navy;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+
