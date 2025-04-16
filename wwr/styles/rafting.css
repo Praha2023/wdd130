@@ -5,14 +5,12 @@
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0/ 0.1);
 }
-
 section {
     color: rgb(226, 130, 12);
     font-style: italic;
     padding: 0;
     margin: 0;
 }
-
 a {
     text-decoration: none;
     color: blueviolet;
@@ -20,24 +18,20 @@ a {
     margin: 1px;
     border: 3px solid skyblue;
 }
-
 body {
     width: 800px;
     margin: 0 auto;
     border: 3px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .hero {
     position: relative;
 }
-
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-
 .hero article img {
     float: right;
     width: 100px;
@@ -65,15 +59,11 @@ article {
     justify-content: space-between;
     flex-direction: row-reverse;
 }
-
 header {
     background-color: rgb(217, 232, 193);
     display: grid;
     grid-template-columns: 200px auto;
 }
-
-
-
 header img {
     width: 200px;
 }
@@ -85,7 +75,6 @@ nav {
     justify-content: space-around;
     gap: 10px;
 }
-
 p {
     padding: 3%;
     border: 2px solid rgb(181, 181, 229);
@@ -104,7 +93,6 @@ h2 {
     float: right;
     margin: 5px;
 }
-
 .historyimage {
     background-color: aquamarine;
 }
@@ -116,27 +104,22 @@ h2 {
     display: flex;
     align-content: stretch;
 }
-
 figure {
     margin: 3px;
     padding: 0;
 }
-
 figcaption {
     text-align: center;
 }
-
 .historyimage p {
     left: 50%;
     right: 50%;
 }
-
 footer {
     background-color: rgb(149, 223, 236);
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
-
 .sociallinks img {
     width: 50px;
     padding: 0;
@@ -144,17 +127,14 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
-
 footer nav {
     padding: 0;
     margin: 20px;
 }
-
 main {
     width: 900px;
     background-color: aliceblue;
 }
-
 .happy_employees {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
