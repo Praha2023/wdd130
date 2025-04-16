@@ -15,6 +15,10 @@ section {
 
 a {
     text-decoration: none;
+    color: blueviolet;
+    padding: 3px;
+    margin: 1px;
+    border: 3px solid skyblue;
 }
 
 body {
@@ -38,7 +42,6 @@ body {
     float: right;
     width: 100px;
 }
-
 h1 {
     position: absolute;
     top: 1rem;
@@ -47,7 +50,6 @@ h1 {
     text-align: center;
     color: white;
 }
-
 article {
     position: absolute;
     top: 10rem;
@@ -70,9 +72,7 @@ header {
     grid-template-columns: 200px auto;
 }
 
-footer {
-    color: cornflowerblue;
-}
+
 
 header img {
     width: 200px;
@@ -88,13 +88,9 @@ nav {
 
 p {
     padding: 3%;
-    border: 2px 2px;
+    border: 2px solid rgb(181, 181, 229);
+    background-color: rgb(248, 214, 219);
 }
-
-.hero article img {
-    float: right;
-}
-
 h2 {
     text-align: center;
     background-color: aqua;
@@ -105,18 +101,14 @@ h2 {
     height: 150px;
     top: 50px;
     left: 50px;
-}
-
-.historyimage {
-    background-color: aquamarine;
-}
-
-.historyimage img {
     background-color: rgb(98, 219, 219);
     float: right;
     margin: 5px;
 }
 
+.historyimage {
+    background-color: aquamarine;
+}
 .figure_flex {
     background-color: cadetblue;
     max-width: 100%;
@@ -226,6 +218,23 @@ legend {
 label {
     text-align: right;
     padding-right: 1rem;
+}
+.home img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.purposes {
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.purposes figcaption {
+    text-align: left;
+}
+.trips img {
+    padding: 0 350px;
+    margin: 0.5px;
 }
 
 
