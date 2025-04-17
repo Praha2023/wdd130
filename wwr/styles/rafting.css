@@ -13,10 +13,14 @@ section {
 }
 a {
     text-decoration: none;
-    color: blueviolet;
-    padding: 3px;
-    margin: 1px;
+    color: rgb(242, 241, 243);
+    padding: 8px;
+    margin: 5px;
     border: 3px solid skyblue;
+    background-color: rgb(12, 12, 197);
+}
+footer a {
+    background-color: rgb(109, 239, 239);
 }
 body {
     width: 800px;
@@ -43,6 +47,10 @@ h1 {
     right: 0;
     text-align: center;
     color: rgb(20, 17, 17);
+}
+.home h1 {
+    padding: 150px;
+    color: white;
 }
 article {
     position: absolute;
@@ -212,8 +220,51 @@ label {
     text-align: left;
 }
 .trips img {
-    padding: 0 350px;
+   padding: 8px 8px 0 8px;
     margin: 0.5px;
+    float: left;
 }
+table {
+    padding: 25px 0 0 300px;
+    border: 2px solid white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 50px 0 330px;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+
 
 
