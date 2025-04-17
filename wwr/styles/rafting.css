@@ -42,7 +42,7 @@ h1 {
     left: 0;
     right: 0;
     text-align: center;
-    color: white;
+    color: rgb(20, 17, 17);
 }
 article {
     position: absolute;
@@ -60,7 +60,7 @@ article {
     flex-direction: row-reverse;
 }
 header {
-    background-color: rgb(217, 232, 193);
+    background-color: rgb(176, 248, 240);
     display: grid;
     grid-template-columns: 200px auto;
 }
